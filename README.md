@@ -1,66 +1,136 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+# Booking App system
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The Graduation project “Online Booking System”  helps Customers book their Appointments, and send a notification to the customers to remind them of their appointments.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Logo](https://github.com/WesamAhmad-cse/bookingApp/assets/107370222/82489014-decc-4048-b57d-d74a89bed079)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+#### Web Application (Company Side):
+ 1- Appointment Management:
+ - Create new appointments.
+ - Manage (edit/delete) existing appointments.
+ - Distinguish between available and non-available appointments.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+ 2- Service Management:
 
-## Laravel Sponsors
+ - Add new services.
+ - Delete existing services.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+3- Customer Checkout:
 
-### Premium Partners
+ - View and manage customer bookings.
+###
+#### Mobile Application (Customer Side):
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+ 1- View Available Appointments:
 
-## Contributing
+ - Display a list of available appointments.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+ 2- Book and Cancel Appointments:
 
-## Code of Conduct
+ - Allow customers to select and book available appointments.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+ - Provide the option to cancel booked appointments.
 
-## Security Vulnerabilities
+ 3- Notification System:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+ - Send notifications to customers for appointment confirmation and cancellations.
+ ###
+ #### General Considerations:
 
-## License
+ 1- User Authentication: Implement secure user authentication for both the company and customer sides.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+ 2- Responsive Design:
+Ensure that both web and mobile applications are responsive to provide a seamless experience across devices.
+
+ 3- Database:
+Use a database to store information such as appointments, services, and user data.
+###
+#### most important features:
+
+ 1- The online Booking System is a general application.
+
+ 2- Monitor Screen.
+
+ 3- Have two sides mobile application for the    customers and web application for the company.
+
+ 4- The customer can book by two ways the first one is taking a number and the second by choose a time from the available appointments.
+
+
+
+
+
+
+## Related
+
+Here are some related projects
+
+[Zoho Booking](https://www.zoho.com/bookings/)
+
+[Simply Booking](https://simplybook.me/en/)
+
+[Booking system](https://play.google.com/store/apps/details?id=com.calengoo.booking&hl=en_US)
+
+
+## Lessons Learned And Challenges:
+
+#### For Web Application (Company Side):
+  
+  ##### Back-End Development:
+  - Learn PHP and Laravel.
+
+##### Database:
+
+  - Learn MySQL.
+
+##### Front-End Development:
+
+  - Learn React.
+
+#### For Mobile Application (Customer Side):
+
+ ##### Mobile App Development:
+  - Learn Dart and Flutter.
+
+
+##### API Development:
+
+  - Understand how to create and use APIs.
+Authentication:
+
+  - Implement user authentication.
+
+ ##### Responsive Design:
+
+  - Ensure your web app is mobile-friendly.
+
+##### Testing:
+
+  - Learn testing basics.
+  
+
+![App Screenshot](https://github.com/WesamAhmad-cse/bookingApp/assets/107370222/cd6ad40a-1bef-4eca-833f-c4bbef2bf863)
+
+
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/WesamAhmad-cse/bookingApp/assets/107370222/65866d10-0c9c-40e1-9778-f73f07b559cc)
+
+![App Screenshot](https://github.com/WesamAhmad-cse/bookingApp/assets/107370222/a538bf65-8f8f-4d81-9bd3-94026d771d10)
+
+
+![App Screenshot](https://github.com/WesamAhmad-cse/bookingApp/assets/107370222/0ad7ed33-3bd2-4eca-b1f2-ec27ff7fecde)
+
+
+## Authors
+
+- [@WesamAhmad-cse](https://www.github.com/octokatherine)
+
